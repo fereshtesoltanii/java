@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section {
+    width: 100%;
+    max-width: 1400px;
+    height: 100vh;
+    background: gray;
+    background-size: cover;
+    background-image: url(./forst.jpg);
+    position: relative;
+}
+
+.three1 {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+}
+
+.three2 {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.cloud {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    cursor: pointer;
+}
+
+@keyframes movecloud {
+    0% {
+        transform: translateX(0px);
+    }
+    100% {
+        transform: translateX(1200px);
+    }
+}
